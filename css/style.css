@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body{
+    color: #f5f5f5;
+    font-family: 'Noto Sans';
+}
+#mainDiv{
+    margin-top: 80px;
+    margin-left: 140px;
+    background-image: url('img/school.jpg');
+    /* the image on my side is not showing in the body of the website */
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    
+}
+header{
+    background-color: #1F1F1F;
+    padding: 15px;
+}
+table{
+    border: solid 1px;
+    padding: 50px;
+   
+    
+}
+thead{
+    background-color: #1F1F1F;
+    text-align: center;
+    
+}
+th{
+    border: solid 1px;
+    padding: 5px;
+    width: 700px;
+    
+}
+tbody{
+    background-color: #3D3D3D;
+    border: solid 1px;
+    text-align: center;
+}
+td{
+    border: solid 1px;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+#formDiv{
+    padding: 50px;
+    background-color: rgba(114, 104, 211, 0.8);
+    
+}
+#tableDiv{
+    padding: 50px;
+    background-color: rgba(114, 104, 211, 0.8);
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 300px;
+    
+    
+}
+#donationForm{
+    display: inline-grid;
+    grid-template-rows: 30px 1fr;
+    width: 200px;
+    height: 200px;
+}
+#submit{
+    background-color: #1F1F1F;
+    color: #f5f5f5;
+}
+input{
+    width: 200px;
+}
+select{
+    width: 200px;
+}
+form{
+    text-align: center;
+    line-height: 40px;
+}
+label{
+    margin-top: 40px;
+}
